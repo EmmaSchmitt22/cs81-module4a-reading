@@ -58,6 +58,7 @@ function printDailySummary(log) {
 
 // Example usage
 addReadBook("Saturday", "Dune", 50);
+addReadBook("Sunday", "The Road", 120); //Added final entry of the week
 printDailySummary(readingLog);
 console.log("Total minutes read:", totalReadingMinutes(readingLog));
 console.log("Most read book:", mostReadBook(readingLog));
