@@ -35,6 +35,9 @@ function mostReadBook(log) {
     }
   }
 
+  //SUGGESTION ADDED HERE: The sort array method could be implemented, to sort the data numerically and then
+  //grab the highest value.
+
   let maxBook = null; //Determines which book count is the highest (from the data generated above)
   let maxCount = 0;
   for (let book in bookCounts) {
