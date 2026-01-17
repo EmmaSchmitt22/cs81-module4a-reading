@@ -1,3 +1,5 @@
+//Emma Schmitt
+
 // Weekly reading log
 const readingLog = [
   { day: "Monday", book: "Dune", minutes: 30 },
