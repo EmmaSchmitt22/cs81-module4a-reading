@@ -1,4 +1,5 @@
 //Emma Schmitt
+//URL to GitHub Repo: https://github.com/EmmaSchmitt22/cs81-module4a-reading
 
 // Weekly reading log
 const readingLog = [ ////A log of the user's reading data
@@ -34,10 +35,8 @@ function mostReadBook(log) {
       bookCounts[entry.book]++; //If the book is already in the cont log, increment it by 1
     }
   }
-
   //SUGGESTION ADDED HERE: The sort array method could be implemented, to sort the data numerically and then
   //grab the highest value.
-
   let maxBook = null; //Determines which book count is the highest (from the data generated above)
   let maxCount = 0;
   for (let book in bookCounts) {
